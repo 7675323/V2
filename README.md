@@ -1,1 +1,2 @@
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_US`
+- `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_East%20Asia`
