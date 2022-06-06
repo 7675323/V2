@@ -1,3 +1,6 @@
+sspool&bihai good
+- `https://raw.githubusercontent.com/7675323/V2/main/sspool%26bihai%20all%20good`
+
 美国 node
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_US`
  
