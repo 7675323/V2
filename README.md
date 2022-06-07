@@ -17,23 +17,32 @@ YT&own_screen_sub-bihai_Clash
 sspool&bihai_screen
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
 
-美国 node
+US_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_US`
  
-东亚 node
+East Asia_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_East%20Asia`
 
-其他国 node
+other_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_other`
 
-美国 node
+US_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_V2_US`
  
-东亚 node
+East Asia_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_v2_East%20Asia`
 
-其他国 node
+other_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_v2_other`
+
+sspool&bihai_screen_V2
+- `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
+
+sspool&bihai_screen_acl4ssr-sub_Clash
+- `https://suo.yt/juDR2nx`
+
+sspool&bihai_screen_sub-bihai_Clash
+- `https://suo.yt/U85Yu2C`
 
 
 
