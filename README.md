@@ -14,8 +14,7 @@ YT&own_screen_acl4ssr-sub_Clash
 YT&own_screen_sub-bihai_Clash
 - `https://suo.yt/U85Yu2C`
 
-sspool&bihai_screen
-- `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
+______________________________________________________________________________
 
 US_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_US`
