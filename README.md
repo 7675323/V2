@@ -1,5 +1,8 @@
-sspool&bihai good
-- `https://raw.githubusercontent.com/7675323/V2/main/sspool%26bihai%20all%20good`
+
+
+
+sspool&bihai_screen
+- `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
 
 美国 node
 - `https://raw.githubusercontent.com/7675323/V2/main/bihai_v2_US`
