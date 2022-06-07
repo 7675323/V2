@@ -3,7 +3,16 @@ YT&own_node
 - `https://raw.githubusercontent.com/7675323/V2/main/YT%26own_node`
 
 YT&own_node_screen
-https://github.com/7675323/V2/blob/main/YT%26own_node_screen
+- `https://github.com/7675323/V2/blob/main/YT%26own_node_screen`
+
+YT&own_screen_V2
+- `https://raw.githubusercontent.com/7675323/V2/main/YT%26own_screen`
+
+YT&own_screen_acl4ssr-sub_Clash
+- `https://suo.yt/ZfiR2HA`
+
+YT&own_screen_sub-bihai_Clash
+- `https://suo.yt/U85Yu2C`
 
 sspool&bihai_screen
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
