@@ -1,5 +1,6 @@
 
-
+YT&own_node
+https://raw.githubusercontent.com/7675323/V2/main/YT%26own_node
 
 sspool&bihai_screen
 - `https://raw.githubusercontent.com/7675323/V2/main/sspool_bihai_screen`
