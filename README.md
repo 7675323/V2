@@ -10,6 +10,7 @@ YT&own_screen_V2
 
 YT&own_screen_acl4ssr-sub_Clash
 - `https://suo.yt/ZfiR2HA`
+- `https://suo.yt/2UNRuu6
 
 YT&own_screen_sub-bihai_Clash
 - `https://suo.yt/U85Yu2C`
