@@ -9,11 +9,7 @@ YT&own_screen_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/YT%26own_screen`
 
 YT&own_screen_acl4ssr-sub_Clash
-- `https://suo.yt/ZfiR2HA`
-- `https://suo.yt/2UNRuu6`
-
-YT&own_screen_sub-bihai_Clash
-- `https://suo.yt/U85Yu2C`
+- `https://raw.githubusercontent.com/7675323/V2/main/YT%26own_screen_Clash`
 
 ______________________________________________________________________________
 
