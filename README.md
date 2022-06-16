@@ -1,4 +1,9 @@
 
+TG_QW_20220616_screen_V2
+- `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220616_V2`
+
+TG_QW_20220616_acl4ssr-sub_Clash
+- `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220616_Clash`
 
 YT&own_screen_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/YT%26own_screen_V2`
