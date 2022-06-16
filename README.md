@@ -1,7 +1,7 @@
 
 TG_QW_20220611_Clash
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_Clash`
-- 
+
 TG_QW_20220611_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_V2`
 
