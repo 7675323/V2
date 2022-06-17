@@ -5,669 +5,2045 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国1, server: zh01lv3us01.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国2, server: zh01lv3us02.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国3, server: zh01lv3us03.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国1, server: zh01lv3uk01.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国2, server: zh01lv3uk02.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国3, server: zh01lv3uk03.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇯🇵 日本3, server: zh01lv3jp03.feiguayun.xyz, port: 50021, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡1, server: zh01lv3sgp01.feiguayun.xyz, port: 50031, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡2, server: zh01lv3sgp02.feiguayun.xyz, port: 50031, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡3, server: zh01lv3sgp03.feiguayun.xyz, port: 50031, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港1, server: zh01lv5hk01.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港3, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港4, server: zh01lv5hk04.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港5, server: zh01lv5hk05.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港6, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港7, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港8, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港9, server: zh01lv5hk09.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港10, server: zh01lv5hk10.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇳 台湾1-Netflix, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇳 台湾2-Netflix, server: zh01lv5tw02.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇳 台湾3-Netflix, server: zh01lv5tw03.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇳 台湾4-Netflix, server: zh01lv5tw04.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇳 台湾5-Netflix, server: zh01lv5tw05.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国1 2, server: zh01lv5us01.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国2 2, server: zh01lv5us02.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国3 2, server: zh01lv5us03.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 美国4, server: zh01lv5us04.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡1 2, server: zh01lv5sgp01.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡2 2, server: zh01lv5sgp02.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡3 2, server: zh01lv5sgp03.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡4, server: zh01lv5sgp04.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇸🇬 新加坡5, server: zh01lv5sgp05.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国1 2, server: zh01lv5uk01.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国2 2, server: zh01lv5uk02.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国4, server: zh01lv5uk04.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇩🇪 德国1, server: zh01lv5ge01.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇩🇪 德国2, server: zh01lv5ge02.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇩🇪 德国3, server: zh01lv5ge03.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇩🇪 德国4, server: zh01lv5ge04.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇩🇪 德国5, server: zh01lv5ge05.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇦 加拿大1, server: zh01lv5ca01.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇦 加拿大2, server: zh01lv5ca02.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇦 加拿大4, server: zh01lv5ca04.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇦 加拿大5, server: zh01lv5ca05.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇮🇳 印度1, server: zh01lv5in01.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇮🇳 印度2, server: zh01lv5in02.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇮🇳 印度3, server: zh01lv5in03.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇮🇳 印度4, server: zh01lv5in04.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇮🇳 印度5, server: zh01lv5in05.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇦🇺 澳大利亚1, server: zh01lv5au01.feiguayun.xyz, port: 39087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇦🇺 澳大利亚5, server: zh01lv5au05.feiguayun.xyz, port: 39087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇭🇰 香港2, server: zh01lv5hk02.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇬🇧 英国3 2, server: zh01lv5uk03.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇨🇦 加拿大3, server: zh01lv5ca03.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc}
-  - {name: 🇺🇲 US02-V2-直连, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 5e76e32e-5de6-4821-91c3-a10080fade62, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇸🇬 SG01-V2-直连, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 5e76e32e-5de6-4821-91c3-a10080fade62, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇭🇰 HK01-V2-直连, server: hk01.henet.cyou, port: 20000, type: vmess, uuid: 2b4ee262-ce60-442a-9c54-5c2193964113, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇨🇳 TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 2b4ee262-ce60-442a-9c54-5c2193964113, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 2, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 2b4ee262-ce60-442a-9c54-5c2193964113, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇭🇰 HK01-V2-直连 2, server: hk01.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 2b4ee262-ce60-442a-9c54-5c2193964113, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 3, server: us02.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇭🇰 香港, server: 20.205.62.88, port: 45806, type: vmess, uuid: d9484b29-0b56-44e5-b170-372b95afb5f4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 2, server: 192.210.231.59, port: 58164, type: vmess, uuid: 39a1dff4-9c7d-487b-9917-2f2c8e9572f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国3, server: zh01lv3us03.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇬🇧 英国3, server: zh01lv3uk03.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港1, server: zh01lv5hk01.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港2, server: zh01lv5hk02.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港4, server: zh01lv5hk04.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港5, server: zh01lv5hk05.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港3, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港6, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港7, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇭🇰 香港8, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇨🇳 台湾1-Netflix, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇯🇵 日本3, server: zh01lv5jp03.feiguayun.xyz, port: 32087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇺🇲 美国5, server: zh01lv5us05.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇸🇬 新加坡1, server: zh01lv5sgp01.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇩🇪 德国2, server: zh01lv5ge02.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇩🇪 德国3, server: zh01lv5ge03.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇨🇦 加拿大5, server: zh01lv5ca05.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇮🇳 印度2, server: zh01lv5in02.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇮🇳 印度3, server: zh01lv5in03.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 28880f3f-07f4-4bc7-825f-0ac0ebc07047}
+  - {name: 🇺🇲 美国1, server: zh01lv3us01.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇬🇧 英国2, server: zh01lv3uk02.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇭🇰 香港3 2, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇭🇰 香港9, server: zh01lv5hk09.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇨🇳 台湾1-Netflix 2, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇯🇵 日本3 2, server: zh01lv5jp03.feiguayun.xyz, port: 32087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇺🇲 美国2, server: zh01lv5us02.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇸🇬 新加坡1 2, server: zh01lv5sgp01.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇬🇧 英国3 2, server: zh01lv5uk03.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇩🇪 德国1, server: zh01lv5ge01.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇨🇦 加拿大3, server: zh01lv5ca03.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 49bdbad0-ab10-44b1-b71b-7d7bb1907b3b}
+  - {name: 🇺🇲 美国2 2, server: zh01lv3us02.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇯🇵 日本3 3, server: zh01lv3jp03.feiguayun.xyz, port: 50021, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇭🇰 香港8 2, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇨🇳 台湾4-Netflix, server: zh01lv5tw04.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇺🇲 美国3 2, server: zh01lv5us03.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇸🇬 新加坡3, server: zh01lv5sgp03.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇩🇪 德国2 2, server: zh01lv5ge02.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇨🇦 加拿大1, server: zh01lv5ca01.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇨🇦 加拿大3 2, server: zh01lv5ca03.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇮🇳 印度4, server: zh01lv5in04.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 81662298-2648-4c2e-8535-a60d7869ea2f}
+  - {name: 🇺🇲 美国1 2, server: zh01lv3us01.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇺🇲 美国2 3, server: zh01lv3us02.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇬🇧 英国3 3, server: zh01lv3uk03.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港3 3, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港1 2, server: zh01lv5hk01.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港2 2, server: zh01lv5hk02.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港5 2, server: zh01lv5hk05.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港7 2, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇭🇰 香港8 3, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇨🇳 台湾1-Netflix 3, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇨🇳 台湾2-Netflix, server: zh01lv5tw02.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇬🇧 英国2 2, server: zh01lv5uk02.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇩🇪 德国1 2, server: zh01lv5ge01.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇩🇪 德国4, server: zh01lv5ge04.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇨🇦 加拿大2, server: zh01lv5ca02.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇺🇲 美国2 4, server: zh01lv3us02.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇭🇰 香港3 4, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇭🇰 香港7 3, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇭🇰 香港10, server: zh01lv5hk10.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇨🇳 台湾4-Netflix 2, server: zh01lv5tw04.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇺🇲 美国5 2, server: zh01lv5us05.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇺🇲 美国3 3, server: zh01lv5us03.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇯🇵 日本5, server: zh01lv5jp05.feiguayun.xyz, port: 32087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇨🇦 加拿大1 2, server: zh01lv5ca01.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇩🇪 德国3 2, server: zh01lv5ge03.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇮🇳 印度3 2, server: zh01lv5in03.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 21c60e97-be1e-4e1a-9ba9-d65dde5ebc6e}
+  - {name: 🇺🇲 美国3 4, server: zh01lv3us03.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇬🇧 英国3 4, server: zh01lv3uk03.feiguayun.xyz, port: 50011, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇭🇰 香港4 2, server: zh01lv5hk04.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇭🇰 香港6 2, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇨🇳 台湾1-Netflix 4, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇨🇳 台湾3-Netflix, server: zh01lv5tw03.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇺🇲 美国1 3, server: zh01lv5us01.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇺🇲 美国4, server: zh01lv5us04.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇩🇪 德国2 3, server: zh01lv5ge02.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇩🇪 德国5, server: zh01lv5ge05.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇮🇳 印度2 2, server: zh01lv5in02.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 505ecd15-ab12-4dd4-b4f3-30c4469379b4}
+  - {name: 🇺🇲 美国1 4, server: zh01lv3us01.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇺🇲 美国2 5, server: zh01lv3us02.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇺🇲 美国3 5, server: zh01lv3us03.feiguayun.xyz, port: 50001, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港2 3, server: zh01lv5hk02.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港3 5, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港5 3, server: zh01lv5hk05.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港6 3, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港8 4, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇭🇰 香港9 2, server: zh01lv5hk09.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇨🇳 台湾1-Netflix 5, server: zh01lv5tw01.feiguayun.xyz, port: 31187, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇺🇲 美国1 5, server: zh01lv5us01.feiguayun.xyz, port: 33087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇸🇬 新加坡3 2, server: zh01lv5sgp03.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇸🇬 新加坡5, server: zh01lv5sgp05.feiguayun.xyz, port: 34087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇩🇪 德国5 2, server: zh01lv5ge05.feiguayun.xyz, port: 36087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇨🇦 加拿大1 3, server: zh01lv5ca01.feiguayun.xyz, port: 37087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇮🇳 印度1, server: zh01lv5in01.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇮🇳 印度3 3, server: zh01lv5in03.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: 🇮🇳 印度5, server: zh01lv5in05.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: 811af1aa-1a09-4495-ae0f-157aea8c0e29}
+  - {name: "🇭🇰 HKG 03 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12303, type: trojan, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, sni: douyincdn.com, skip-cert-verify: true}
+  - {name: "🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M", server: cm.3sx.xyz, port: 12305, type: trojan, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, sni: douyincdn.com, skip-cert-verify: true}
+  - {name: "🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]", server: 103.117.102.8, port: 12306, type: trojan, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, sni: douyincdn.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG CM.A/01 x1.0, server: cm.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇭🇰 HKG CM.B/01 x1.0, server: cmb.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇭🇰 HKG CM.A/02 x1.0, server: cm.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇯🇵 JPN CM.B/02 x1.0, server: cmb.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇺🇲 USA CM.B/03 x1.0, server: cmb.3sx.xyz, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇺🇲 USA IEPL.A/01 x3.0, server: iepl.3sx.xyz, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇺🇲 USA IEPL.A/02 x3.0, server: iepl.3sx.xyz, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇸🇬 SGP CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇹🇭 THA CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61022, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇸🇬 SGP IEPL.A/02 x3.0, server: iepl.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9}
+  - {name: 🇮🇳 印度1 2, server: zh01lv5in01.feiguayun.xyz, port: 38087, type: ss, cipher: aes-256-gcm, password: eb1d1231-a0ef-4ef6-be6c-6bd8f14c4ba4}
+  - {name: 🇷🇺 俄罗斯, server: ru1.nodegz.top, port: 1234, type: trojan, password: 97528522-6883-3f98-9f66-b6e134dfcd64, sni: ru1.nodegz.top}
+  - {name: 🇸🇬 新加坡, server: sg1.nodegz.top, port: 443, type: trojan, password: 4b884f9c-aaa4-3bcb-ac6f-70a79bba4077, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2, server: sg1.crunode.top, port: 443, type: trojan, password: 4b884f9c-aaa4-3bcb-ac6f-70a79bba4077, sni: sg1.crunode.top}
+  - {name: 🇸🇬 新加坡 2, server: sgg.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: sgg.2046.gq, skip-cert-verify: true}
+  - {name: 🇷🇺 莫斯科, server: ru.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: ru.2046.gq, skip-cert-verify: true}
+  - {name: 甲骨文, server: kk.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: kk.2046.gq, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡 3, server: sg1.nodegz.top, port: 443, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 2, server: sg1.crunode.top, port: 443, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: sg1.crunode.top}
+  - {name: 🇷🇺 俄罗斯 2, server: ru1.nodegz.top, port: 1234, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: ru1.nodegz.top}
+  - {name: 🇺🇲 美国 3, server: us1.nodegz.top, port: 443, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: us1.nodegz.top}
+  - {name: 🇺🇲 美国 4, server: us2.nodegz.top, port: 443, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: us2.nodegz.top}
+  - {name: 🇳🇱 荷兰, server: nl1.nodegz.top, port: 443, type: trojan, password: d0f96d3c-c518-3af9-bcbd-34b3743b7e34, sni: nl1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 3, server: sg1.crunode.top, port: 443, type: trojan, password: 14c52c38-942f-3c56-89af-97bd46c7b65e, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 5, server: us1.nodegz.top, port: 443, type: trojan, password: 14c52c38-942f-3c56-89af-97bd46c7b65e, sni: us1.nodegz.top}
+  - {name: 🇳🇱 荷兰 2, server: nl1.nodegz.top, port: 443, type: trojan, password: 14c52c38-942f-3c56-89af-97bd46c7b65e, sni: nl1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 4, server: sg1.crunode.top, port: 443, type: trojan, password: 7d2f4381-c5d5-38ae-9ee9-5dd8e37f66d7, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 6, server: us1.nodegz.top, port: 443, type: trojan, password: 7d2f4381-c5d5-38ae-9ee9-5dd8e37f66d7, sni: us1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 5, server: sg1.crunode.top, port: 443, type: trojan, password: 62867210-7dd6-3b5c-8947-bc419d8528b9, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 7, server: us1.nodegz.top, port: 443, type: trojan, password: 62867210-7dd6-3b5c-8947-bc419d8528b9, sni: us1.nodegz.top}
+  - {name: 🇺🇲 拉斯维加斯, server: us1.crunode.top, port: 443, type: trojan, password: 9f3c7c4b-97e0-3b0b-8864-f4095a38fe66, sni: us1.crunode.top}
+  - {name: 🇸🇬 新加坡2 6, server: sg1.crunode.top, port: 443, type: trojan, password: 9f3c7c4b-97e0-3b0b-8864-f4095a38fe66, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 8, server: us1.nodegz.top, port: 443, type: trojan, password: 9f3c7c4b-97e0-3b0b-8864-f4095a38fe66, sni: us1.nodegz.top}
+  - {name: 🇳🇱 荷兰 3, server: nl1.nodegz.top, port: 443, type: trojan, password: 9f3c7c4b-97e0-3b0b-8864-f4095a38fe66, sni: nl1.nodegz.top}
+  - {name: 🇷🇺 俄罗斯 3, server: ru1.nodegz.top, port: 1234, type: trojan, password: b8d5a1e1-17cb-3200-afb6-a9463692b83a, sni: ru1.nodegz.top}
+  - {name: 🇸🇬 新加坡 4, server: sg1.nodegz.top, port: 443, type: trojan, password: b8d5a1e1-17cb-3200-afb6-a9463692b83a, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 7, server: sg1.crunode.top, port: 443, type: trojan, password: b8d5a1e1-17cb-3200-afb6-a9463692b83a, sni: sg1.crunode.top}
+  - {name: 🇳🇱 荷兰 4, server: nl1.nodegz.top, port: 443, type: trojan, password: b8d5a1e1-17cb-3200-afb6-a9463692b83a, sni: nl1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 8, server: sg1.crunode.top, port: 443, type: trojan, password: 25e87dc7-5b48-337c-9fbf-ca8dfd1bdb86, sni: sg1.crunode.top}
+  - {name: 🇳🇱 荷兰 5, server: nl1.nodegz.top, port: 443, type: trojan, password: 25e87dc7-5b48-337c-9fbf-ca8dfd1bdb86, sni: nl1.nodegz.top}
+  - {name: 🇳🇱 荷兰 6, server: nl1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: nl1.nodegz.top}
+  - {name: 🇺🇲 美国 9, server: us1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: us1.nodegz.top}
+  - {name: 🇸🇬 新加坡 5, server: sg1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: sg1.nodegz.top}
+  - {name: 🇷🇺 俄罗斯 4, server: ru1.nodegz.top, port: 1234, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: ru1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 9, server: sg1.crunode.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: sg1.crunode.top}
+  - {name: 🇷🇺 俄罗斯 5, server: ru1.nodegz.top, port: 1234, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: ru1.nodegz.top}
+  - {name: 🇺🇲 拉斯维加斯 2, server: us1.crunode.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: us1.crunode.top}
+  - {name: 🇸🇬 新加坡 6, server: sg1.nodegz.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 10, server: sg1.crunode.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 10, server: us1.nodegz.top, port: 443, type: trojan, password: ba2cc258-cd36-3b32-917d-49169b6380d1, sni: us1.nodegz.top}
+  - {name: 🇷🇺 俄罗斯 6, server: ru1.nodegz.top, port: 1234, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, sni: ru1.nodegz.top}
+  - {name: 🇺🇲 拉斯维加斯 3, server: us1.crunode.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, sni: us1.crunode.top}
+  - {name: 🇳🇱 荷兰 7, server: nl1.nodegz.top, port: 443, type: trojan, password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98, sni: nl1.nodegz.top}
+  - {name: 🇷🇺 俄罗斯 7, server: ru1.nodegz.top, port: 1234, type: trojan, password: 5f0097d5-3401-3874-8328-6f2df48bbac7, sni: ru1.nodegz.top}
+  - {name: 🇳🇱 荷兰 8, server: nl1.nodegz.top, port: 443, type: trojan, password: 5f0097d5-3401-3874-8328-6f2df48bbac7, sni: nl1.nodegz.top}
+  - {name: 🇺🇲 美国 11, server: us1.nodegz.top, port: 443, type: trojan, password: 5f0097d5-3401-3874-8328-6f2df48bbac7, sni: us1.nodegz.top}
+  - {name: 🇸🇬 新加坡 7, server: sg1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 11, server: sg1.crunode.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: sg1.crunode.top}
+  - {name: 🇳🇱 荷兰 9, server: nl1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: nl1.nodegz.top}
+  - {name: 🇺🇲 美国 12, server: us1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: us1.nodegz.top}
+  - {name: 🇷🇺 俄罗斯 8, server: ru1.nodegz.top, port: 1234, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: ru1.nodegz.top}
+  - {name: 🇸🇬 新加坡 8, server: sg1.nodegz.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: sg1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 12, server: sg1.crunode.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: sg1.crunode.top}
+  - {name: 🇺🇲 美国 13, server: us1.nodegz.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, sni: us1.nodegz.top}
+  - {name: 🇸🇬 新加坡 9, server: sg1.nodegz.top, port: 443, type: trojan, password: a17e1ef5-5172-310e-8687-ddc29063a7e0, sni: sg1.nodegz.top}
+  - {name: 🇺🇲 美国 14, server: us1.nodegz.top, port: 443, type: trojan, password: a17e1ef5-5172-310e-8687-ddc29063a7e0, sni: us1.nodegz.top}
+  - {name: 🇸🇬 新加坡2 13, server: sg1.crunode.top, port: 443, type: trojan, password: a17e1ef5-5172-310e-8687-ddc29063a7e0, sni: sg1.crunode.top}
+  - {name: 🇨🇳 TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 9f29e3a6-64ab-4b99-bc36-df36b48ae76e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US01-V2-直连, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 9f29e3a6-64ab-4b99-bc36-df36b48ae76e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG01-V2-直连, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 9f29e3a6-64ab-4b99-bc36-df36b48ae76e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US02-V2-直连, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 9f29e3a6-64ab-4b99-bc36-df36b48ae76e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG02-V2-直连, server: sg02.henet.cyou, port: 20000, type: vmess, uuid: 9f29e3a6-64ab-4b99-bc36-df36b48ae76e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW02-V2-直连 2, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US01-V2-直连 2, server: us01.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
   - {name: 🇸🇬 SG01-V2-直连 2, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连 2, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG02-V2-直连 2, server: sg02.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US02-V2-直连 2, server: us02.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW02-V2-直连 3, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US02-V2-直连 3, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
   - {name: 🇸🇬 SG01-V2-直连 3, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 4, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连 3, server: us01.henet.cyou, port: 20000, type: vmess, uuid: c74f8cfd-bba3-498d-9311-b109e60b94a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇨🇳 TW02-V2-直连 2, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇭🇰 HK01-V2-直连 3, server: hk01.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连 4, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 5, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇸🇬 SG01-V2-直连 4, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连 5, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇨🇳 TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US01-V2-直连 6, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 6, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
-  - {name: 🇺🇲 US02-V2-直连 7, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US01-V2-直连 3, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 108bd7b2-ca95-4560-a82e-c683aac6a7c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW02-V2-直连 4, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US01-V2-直连 4, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US02-V2-直连 4, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG01-V2-直连 4, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 7d67ddd5-c6b9-40db-b26f-f51fffc0ba14, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG02-V2-直连 3, server: sg02.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US01-V2-直连 5, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW01-V2-直连 2, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 9be75dda-8238-46b5-ba87-12e749d693dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇨🇳 TW02-V2-直连 5, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇺🇲 US02-V2-直连 5, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: 🇸🇬 SG01-V2-直连 5, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 077c13c7-64fd-4355-89d1-b01e99cfe583, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}}
+  - {name: "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04", server: h3816tw.strongpipe.live, port: 20443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00", server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00", server: h961359.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00", server: h63956.strongpipe.live, port: 115, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00", server: h961684.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00", server: h961359.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00", server: h890361.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04", server: h961359.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04", server: h961684.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04", server: h961684.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04", server: h961359.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true}
+  - {name: 🇭🇰 香港 2, server: iepl-hn.cctelescope.xyz, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南, server: iepl-hn.cctelescope.xyz, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南 2, server: iepl-gz.safetelescope.cc, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇻🇳 越南 3, server: ieplszhk-sz.cctelescope.xyz, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇰🇷 韩国, server: gzyd-01.cctelescope.xyz, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇵🇭 菲律宾, server: gzyd-01.cctelescope.xyz, port: 45705, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇵🇭 菲律宾 2, server: iepl-hn.cctelescope.xyz, port: 48293, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国, server: iepl-hn.cctelescope.xyz, port: 14261, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇬🇧 英国 2, server: sh163.safetelescope.cc, port: 10006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇲 美国 15, server: iepl-gz.safetelescope.cc, port: 15658, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇲 美国 16, server: gzyd-01.cctelescope.xyz, port: 40678, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 立陶宛, server: ieplszhk-sz.cctelescope.xyz, port: 56326, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 瑞典, server: iepl-hn.cctelescope.xyz, port: 20098, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 爱沙尼亚, server: ieplszhk-sz.cctelescope.xyz, port: 59058, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇦🇺 澳大利亚, server: gzyd-01.cctelescope.xyz, port: 62300, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇭 泰国, server: ieplszhk-sz.cctelescope.xyz, port: 54402, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇫🇷 法国, server: iepl-gz.safetelescope.cc, port: 49853, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇫🇷 法国 2, server: gzyd-01.cctelescope.xyz, port: 23033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本, server: ieplszhk-sz.cctelescope.xyz, port: 57312, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本 2, server: sh163.safetelescope.cc, port: 10019, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 日本 3, server: iepl-hn.cctelescope.xyz, port: 27078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡 10, server: sh163.safetelescope.cc, port: 46562, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡 11, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇸🇬 新加坡 12, server: gzyd-01.cctelescope.xyz, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇩🇪 德国, server: sh163.safetelescope.cc, port: 62301, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 尼日利亚, server: ieplszhk-sz.cctelescope.xyz, port: 59354, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇹🇷 土耳其, server: iepl-hn.cctelescope.xyz, port: 26563, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾, server: gzyd-01.cctelescope.xyz, port: 30002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾 2, server: iepl-hn.cctelescope.xyz, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾 3, server: iepl-gz.safetelescope.cc, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾 4, server: ieplszhk-sz.cctelescope.xyz, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 台湾 5, server: sh163.safetelescope.cc, port: 10007, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇮🇳 印度, server: iepl-hn.cctelescope.xyz, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇦 加拿大, server: iepl-hn.cctelescope.xyz, port: 46164, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇷🇺 俄罗斯 9, server: gzyd-01.cctelescope.xyz, port: 26096, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 乌克兰, server: ieplszhk-sz.cctelescope.xyz, port: 59578, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 香港 3, server: 20.205.62.88, port: 45806, type: vmess, uuid: d9484b29-0b56-44e5-b170-372b95afb5f4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡2 14, server: sg1.crunode.top, port: 443, type: trojan, password: 97528522-6883-3f98-9f66-b6e134dfcd64, sni: sg1.crunode.top}
+  - {name: 🇯🇵 日本东京, server: jp3.2046.gq, port: 8443, type: vmess, uuid: 5a22cce1-de5a-44c8-9e9b-6c839887e97c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jp3.2046.gq}}}
+  - {name: 🇯🇵 日本 4, server: os.2046.gq, port: 8443, type: vmess, uuid: 5a22cce1-de5a-44c8-9e9b-6c839887e97c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: os.2046.gq}}}
+  - {name: 🇰🇷 韩国 2, server: kk.2046.gq, port: 4443, type: trojan, password: 5a22cce1-de5a-44c8-9e9b-6c839887e97c, sni: kk.2046.gq, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯 10, server: ru.2046.gq, port: 4443, type: trojan, password: 5a22cce1-de5a-44c8-9e9b-6c839887e97c, sni: ru.2046.gq, skip-cert-verify: true}
+  - {name: 🇧🇷 巴西22-全网优化, server: 22br.pronetworklink.net, port: 443, type: trojan, password: 22281573-3aec-4157-81d1-72b420a71e22}
+  - {name: 🇯🇵 日本18-全网优化, server: 18jp.pronetworklink.net, port: 443, type: trojan, password: 22281573-3aec-4157-81d1-72b420a71e22}
+  - {name: 🇺🇲 美国5-全网优化, server: 5us.pronetworklink.net, port: 443, type: trojan, password: 22281573-3aec-4157-81d1-72b420a71e22}
+  - {name: 🇭🇰 香港20-全网优化, server: 20hk.pronetworklink.net, port: 443, type: trojan, password: 22281573-3aec-4157-81d1-72b420a71e22}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -690,84 +2066,256 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国1
-      - 🇺🇲 美国2
+      - 🇭🇰 香港
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
       - 🇺🇲 美国3
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
       - 🇬🇧 英国3
-      - 🇯🇵 日本3
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
       - 🇭🇰 香港1
-      - 🇭🇰 香港3
+      - 🇭🇰 香港2
       - 🇭🇰 香港4
       - 🇭🇰 香港5
+      - 🇭🇰 香港3
       - 🇭🇰 香港6
       - 🇭🇰 香港7
       - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇭🇰 香港10
       - 🇨🇳 台湾1-Netflix
-      - 🇨🇳 台湾2-Netflix
-      - 🇨🇳 台湾3-Netflix
-      - 🇨🇳 台湾4-Netflix
-      - 🇨🇳 台湾5-Netflix
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇸🇬 新加坡1 2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3 2
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇬🇧 英国1 2
-      - 🇬🇧 英国2 2
-      - 🇬🇧 英国4
-      - 🇩🇪 德国1
+      - 🇯🇵 日本3
+      - 🇺🇲 美国5
+      - 🇸🇬 新加坡1
       - 🇩🇪 德国2
       - 🇩🇪 德国3
-      - 🇩🇪 德国4
-      - 🇩🇪 德国5
-      - 🇨🇦 加拿大1
-      - 🇨🇦 加拿大2
-      - 🇨🇦 加拿大4
       - 🇨🇦 加拿大5
-      - 🇮🇳 印度1
       - 🇮🇳 印度2
       - 🇮🇳 印度3
-      - 🇮🇳 印度4
-      - 🇮🇳 印度5
-      - 🇦🇺 澳大利亚1
-      - 🇦🇺 澳大利亚5
-      - 🇭🇰 香港2
+      - 🇺🇲 美国1
+      - 🇬🇧 英国2
+      - 🇭🇰 香港3 2
+      - 🇭🇰 香港9
+      - 🇨🇳 台湾1-Netflix 2
+      - 🇯🇵 日本3 2
+      - 🇺🇲 美国2
+      - 🇸🇬 新加坡1 2
       - 🇬🇧 英国3 2
+      - 🇩🇪 德国1
       - 🇨🇦 加拿大3
-      - 🇺🇲 US02-V2-直连
-      - 🇸🇬 SG01-V2-直连
-      - 🇭🇰 HK01-V2-直连
+      - 🇺🇲 美国2 2
+      - 🇯🇵 日本3 3
+      - 🇭🇰 香港8 2
+      - 🇨🇳 台湾4-Netflix
+      - 🇺🇲 美国3 2
+      - 🇸🇬 新加坡3
+      - 🇩🇪 德国2 2
+      - 🇨🇦 加拿大1
+      - 🇨🇦 加拿大3 2
+      - 🇮🇳 印度4
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国2 3
+      - 🇬🇧 英国3 3
+      - 🇭🇰 香港3 3
+      - 🇭🇰 香港1 2
+      - 🇭🇰 香港2 2
+      - 🇭🇰 香港5 2
+      - 🇭🇰 香港7 2
+      - 🇭🇰 香港8 3
+      - 🇨🇳 台湾1-Netflix 3
+      - 🇨🇳 台湾2-Netflix
+      - 🇬🇧 英国2 2
+      - 🇩🇪 德国1 2
+      - 🇩🇪 德国4
+      - 🇨🇦 加拿大2
+      - 🇺🇲 美国2 4
+      - 🇭🇰 香港3 4
+      - 🇭🇰 香港7 3
+      - 🇭🇰 香港10
+      - 🇨🇳 台湾4-Netflix 2
+      - 🇺🇲 美国5 2
+      - 🇺🇲 美国3 3
+      - 🇯🇵 日本5
+      - 🇨🇦 加拿大1 2
+      - 🇩🇪 德国3 2
+      - 🇮🇳 印度3 2
+      - 🇺🇲 美国3 4
+      - 🇬🇧 英国3 4
+      - 🇭🇰 香港4 2
+      - 🇭🇰 香港6 2
+      - 🇨🇳 台湾1-Netflix 4
+      - 🇨🇳 台湾3-Netflix
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国4
+      - 🇩🇪 德国2 3
+      - 🇩🇪 德国5
+      - 🇮🇳 印度2 2
+      - 🇺🇲 美国1 4
+      - 🇺🇲 美国2 5
+      - 🇺🇲 美国3 5
+      - 🇭🇰 香港2 3
+      - 🇭🇰 香港3 5
+      - 🇭🇰 香港5 3
+      - 🇭🇰 香港6 3
+      - 🇭🇰 香港8 4
+      - 🇭🇰 香港9 2
+      - 🇨🇳 台湾1-Netflix 5
+      - 🇺🇲 美国1 5
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡5
+      - 🇩🇪 德国5 2
+      - 🇨🇦 加拿大1 3
+      - 🇮🇳 印度1
+      - 🇮🇳 印度3 3
+      - 🇮🇳 印度5
+      - 🇭🇰 HKG 03 x1.0 [Trojan] [中轉]
+      - 🇭🇰 HKG 04 x3.0 [Trojan] [中轉] 限速100M
+      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
+      - 🇭🇰 HKG CM.A/01 x1.0
+      - 🇭🇰 HKG CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇺🇲 USA CM.B/03 x1.0
+      - 🇺🇲 USA IEPL.A/01 x3.0
+      - 🇺🇲 USA IEPL.A/02 x3.0
+      - 🇸🇬 SGP CM.B/01 x1.0
+      - 🇹🇭 THA CM.B/01 x1.0
+      - 🇸🇬 SGP IEPL.A/02 x3.0
+      - 🇮🇳 印度1 2
+      - 🇷🇺 俄罗斯
+      - 🇸🇬 新加坡
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡 2
+      - 🇷🇺 莫斯科
+      - 甲骨文
+      - 🇸🇬 新加坡 3
+      - 🇸🇬 新加坡2 2
+      - 🇷🇺 俄罗斯 2
+      - 🇺🇲 美国 3
+      - 🇺🇲 美国 4
+      - 🇳🇱 荷兰
+      - 🇸🇬 新加坡2 3
+      - 🇺🇲 美国 5
+      - 🇳🇱 荷兰 2
+      - 🇸🇬 新加坡2 4
+      - 🇺🇲 美国 6
+      - 🇸🇬 新加坡2 5
+      - 🇺🇲 美国 7
+      - 🇺🇲 拉斯维加斯
+      - 🇸🇬 新加坡2 6
+      - 🇺🇲 美国 8
+      - 🇳🇱 荷兰 3
+      - 🇷🇺 俄罗斯 3
+      - 🇸🇬 新加坡 4
+      - 🇸🇬 新加坡2 7
+      - 🇳🇱 荷兰 4
+      - 🇸🇬 新加坡2 8
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇺🇲 美国 9
+      - 🇸🇬 新加坡 5
+      - 🇷🇺 俄罗斯 4
+      - 🇸🇬 新加坡2 9
+      - 🇷🇺 俄罗斯 5
+      - 🇺🇲 拉斯维加斯 2
+      - 🇸🇬 新加坡 6
+      - 🇸🇬 新加坡2 10
+      - 🇺🇲 美国 10
+      - 🇷🇺 俄罗斯 6
+      - 🇺🇲 拉斯维加斯 3
+      - 🇳🇱 荷兰 7
+      - 🇷🇺 俄罗斯 7
+      - 🇳🇱 荷兰 8
+      - 🇺🇲 美国 11
+      - 🇸🇬 新加坡 7
+      - 🇸🇬 新加坡2 11
+      - 🇳🇱 荷兰 9
+      - 🇺🇲 美国 12
+      - 🇷🇺 俄罗斯 8
+      - 🇸🇬 新加坡 8
+      - 🇸🇬 新加坡2 12
+      - 🇺🇲 美国 13
+      - 🇸🇬 新加坡 9
+      - 🇺🇲 美国 14
+      - 🇸🇬 新加坡2 13
       - 🇨🇳 TW02-V2-直连
-      - 🇺🇲 US02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 2
       - 🇺🇲 US01-V2-直连
-      - 🇺🇲 US02-V2-直连 3
-      - 🇸🇬 SG01-V2-直连 2
-      - 🇺🇲 US01-V2-直连 2
-      - 🇸🇬 SG01-V2-直连 3
-      - 🇺🇲 US02-V2-直连 4
-      - 🇺🇲 US01-V2-直连 3
+      - 🇸🇬 SG01-V2-直连
+      - 🇺🇲 US02-V2-直连
+      - 🇸🇬 SG02-V2-直连
       - 🇨🇳 TW02-V2-直连 2
-      - 🇭🇰 HK01-V2-直连 3
-      - 🇺🇲 US01-V2-直连 4
-      - 🇺🇲 US02-V2-直连 5
-      - 🇸🇬 SG01-V2-直连 4
-      - 🇺🇲 US01-V2-直连 5
+      - 🇺🇲 US01-V2-直连 2
+      - 🇸🇬 SG01-V2-直连 2
+      - 🇸🇬 SG02-V2-直连 2
+      - 🇺🇲 US02-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 3
+      - 🇺🇲 US02-V2-直连 3
+      - 🇸🇬 SG01-V2-直连 3
       - 🇨🇳 TW01-V2-直连
-      - 🇺🇲 US01-V2-直连 6
-      - 🇺🇲 US02-V2-直连 6
-      - 🇺🇲 US02-V2-直连 7
+      - 🇺🇲 US01-V2-直连 3
+      - 🇨🇳 TW02-V2-直连 4
+      - 🇺🇲 US01-V2-直连 4
+      - 🇺🇲 US02-V2-直连 4
+      - 🇸🇬 SG01-V2-直连 4
+      - 🇸🇬 SG02-V2-直连 3
+      - 🇺🇲 US01-V2-直连 5
+      - 🇨🇳 TW01-V2-直连 2
+      - 🇨🇳 TW02-V2-直连 5
+      - 🇺🇲 US02-V2-直连 5
+      - 🇸🇬 SG01-V2-直连 5
+      - "🇨🇳 h3816tw.strongpipe.live:20443#%%%%%%%%%%%%%%\x04"
+      - "h890361.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11545#%%%%%%%%%%%%%%%\x00"
+      - "h63956.strongpipe.live:115#%%%%%%%%%%%%%%\x00"
+      - "h961684.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h890361.strongpipe.live:11445#%%%%%%%%%%%%%%%\x00"
+      - "h961359.strongpipe.live:11245#%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11245#%%%%%%%%%%%%%%%\x04"
+      - "h961684.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - "h961359.strongpipe.live:11745#%%%%%%%%%%%%%%%\x04"
+      - 🇭🇰 香港 2
+      - 🇻🇳 越南
+      - 🇻🇳 越南 2
+      - 🇻🇳 越南 3
+      - 🇰🇷 韩国
+      - 🇵🇭 菲律宾
+      - 🇵🇭 菲律宾 2
+      - 🇬🇧 英国
+      - 🇬🇧 英国 2
+      - 🇺🇲 美国 15
+      - 🇺🇲 美国 16
+      - 立陶宛
+      - 瑞典
+      - 爱沙尼亚
+      - 🇦🇺 澳大利亚
+      - 🇹🇭 泰国
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇯🇵 日本
+      - 🇯🇵 日本 2
+      - 🇯🇵 日本 3
+      - 🇸🇬 新加坡 10
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 12
+      - 🇩🇪 德国
+      - 🇯🇵 尼日利亚
+      - 🇹🇷 土耳其
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾 2
+      - 🇨🇳 台湾 3
+      - 🇨🇳 台湾 4
+      - 🇨🇳 台湾 5
+      - 🇮🇳 印度
+      - 🇨🇦 加拿大
+      - 🇷🇺 俄罗斯 9
+      - 乌克兰
+      - 🇭🇰 香港 3
+      - 🇸🇬 新加坡2 14
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本 4
+      - 🇰🇷 韩国 2
+      - 🇷🇺 俄罗斯 10
+      - 🇧🇷 巴西22-全网优化
+      - 🇯🇵 日本18-全网优化
+      - 🇺🇲 美国5-全网优化
+      - 🇭🇰 香港20-全网优化
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
