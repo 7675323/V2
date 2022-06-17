@@ -1,11 +1,15 @@
+长期维护订阅地址：
 
-TG_QW_20220611_Clash
+telegram_全网最强分享频道（官）：
+- `https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg- `
+
+telegram_全网最强分享频道_20220611_Clash:
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_Clash`
 
-TG_QW_20220611_V2
+telegram_全网最强分享频道_20220611_V2
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_V2`
 
-TG_QW_20220609_Clash
+telegram_全网最强分享频道_20220609_Clash
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220609_Clash`
 
 
