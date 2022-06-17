@@ -7,10 +7,10 @@ telegram_全网最强分享频道_20220611_Clash:
 - `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_Clash`
 
 telegram_全网最强分享频道_20220611_V2
-- `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220611_V2`
+- `https://gitlab.com/xlzlucky/bpjd/-/raw/main/freejd- `
 
 telegram_全网最强分享频道_20220609_Clash
-- `https://raw.githubusercontent.com/7675323/V2/main/TG_QW_20220609_Clash`
+- `https://github.xiaokuqwq.eu.org/https://raw.githubusercontent.com/daycat/freeray/main/optimized.yaml`
 
 
 ______________________________________________________________________________
